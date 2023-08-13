@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace $rand$;
+#include <$rand$>
+// $rand$
+for (int $var_decl$ = $num$; $var$ > $num$; $var$+=$num$) ${$
+if ($var$ == $num$) ${$
+if ($var$ != $num$) ${$
+if ($var$ == "$rand$") ${$
+if ($var$ != "$rand$") ${$
+std::cout << $num$;
+std::cout << $var$;
+std::cout << "$rand$";
+std::cout << std::endl;
+std::string $var_decl$; $var$ >> std::cin;
+/* $rand$ */
+ 
