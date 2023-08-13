@@ -1,0 +1,13 @@
+import $rand$ from $rand$
+// $rand$
+for (var $var_decl$ = $num$; $var$ > $num$; $var$+=$num$) ${$
+if ($var$ == $num$) ${$
+if ($var$ != $num$) ${$
+if ($var$ == "$rand$") ${$
+if ($var$ != "$rand$") ${$
+console.log($num$);
+console.log($var$);
+console.log("$rand$");
+var $var_decl$ = prompt();
+var $var_decl$ = "$rand$";
+/* $rand$ */

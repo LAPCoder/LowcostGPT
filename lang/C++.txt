@@ -13,5 +13,5 @@ std::cout << $var$;
 std::cout << "$rand$";
 std::cout << std::endl;
 std::string $var_decl$; $var$ >> std::cin;
+std::string $var_decl$ = "$rand$";
 /* $rand$ */
- 

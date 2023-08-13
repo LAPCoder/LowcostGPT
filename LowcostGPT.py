@@ -20,6 +20,7 @@ def get_random_code():
 	line: str
 	acc_count = 0
 	vars_name = ["undef_error_"+"".join(random.choices(CHARS, k=5))]
+	# TODO: Why this loop is executed 0-5 times?    min-v  v-max
 	for line in random.choices(lines, k=random.randint(10, 97)): # ChatGPT like to stop code generating just before 100 lines
 		if not "$" in line:
 			code.append(line)
@@ -74,4 +75,6 @@ while answer == "":
 	answer = input("> ")
 print("Sorry but I'm no 'LowcostChat', so you can't gimme orders.")
 print("I'll do something in", random.choice(LANGUAGES) + ".")
+print("-----BEGIN LGPT PUBLIC CODE BLOCK-----")
 print("".join(get_random_code()), end="")
+print("-----END LGPT PUBLIC CODE BLOCK-----")

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import $rand$.$rand$.$rand$;
+// $rand$
+for (int $var_decl$ = $num$; $var$ > $num$; $var$+=$num$) ${$
+if ($var$ == $num$) ${$
+if ($var$ != $num$) ${$
+if ($var$ == "$rand$") ${$
+if ($var$ != "$rand$") ${$
+System.out.print($num$);
+System.out.print($var$);
+System.out.print("$rand$");
+Scanner scan = new Scanner(System.in); String $var_decl$ = scan.nextLine();
+String $var_decl$ = "$rand$";
+/* $rand$ */
